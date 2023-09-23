@@ -11,7 +11,7 @@
          <div class="flex flex-wrap justify-between items-center">
           <div class="flex justify-start items-center">
               <a href="/" class="flex mr-4 pl-4 ">
-                <img src="{% static 'img/2.png' %}" class="mr-3 h-8" alt="Nasim Logo" />
+                <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1695484062/2_cues3c.png" class="mr-3 h-8" alt="Nasim Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">N-Tech Portfolio</span>
               </a>
           </div>
