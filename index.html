@@ -1,507 +1,204 @@
 <!DOCTYPE html>
-<html data-theme="synthwave"  lang="en"><head>
-    <meta charset="UTF-8">
-    <title>Abdul</title>
-      <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-<header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Nasim </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">Abdulazeez</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Porfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Abdulazeez</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/easylearn79"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/itznasim44/"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://gh.linkedin.com/in/musah-abdulazeez-54266815b"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="https://res.cloudinary.com/dnmgvty4i/image/upload/v1740225047/Abdulazeez_Cv_Resume_lpz3cu.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1740222522/port_rv1hzk.webp" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1695484062/2_cues3c.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>FullStack Developer</h3>
+                <p>I am a Python programmer, Data entry, Data Analysis, Sql database designer,Flutter Mobile App, final year project writeup, machine learning model developer, and web developer, with a passion for crafting visually appealing and user-friendly digital experiences. With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.  </p>
+                 <a href="#"class="btn">Read More</a>   
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading"><span>Services</span></h2>
 
-<nav class="bg-white backdrop-blur opacity-90 w-full top-0 fixed border-gray-200 dark:bg-gray-900">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="/" class="flex mr-4 pl-4 ">
-    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1695484062/2_cues3c.png" class="mr-3 h-8" alt="Nasim Logo" />
-    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">N-Tech Portfolio</span>
-    </a>
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-        </li>
-        <li>
-          <a href="/cert.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Certificate</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  <section class="mt-16">
-    <div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
-        </div>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Motivated designer and developer
+                         with experience creating custom websites through Django and CSS. 
+                         Strong collaboration skills and proven history of application development. HTML and CSS. MS Access and MySQL.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>UI/UX Design</h3>
+                    <p>You cannot make a good design if you do not understand people; design is made for people.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>Flutter Mobile Apps</h3>
+                    <p>A cross-platform mobile application allows you to build an app that runs on both iOS and Android.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+                 <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>DATA ENTRY</h3>
+                    <p> Data Entry Software Allow You to Enter Data to A csv Format. .</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>IT Services</h3>
+                    <p>In a world fill with Scammers, you need basic Knowlegde of IT to be on the safer side, i provide just that.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>Research/Project Work</h3>
+                    <p>Everything good about the digital world comes from a good resaerch and the right tools...
+                        </p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio"id="portfolio">
+            <h2 class="heading">Latest<span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1740062873/wallet_quqowa.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Wallet Mobile Application</h4>
+                        <p>In this project I try making my own Wallet Application for myself. Showcase my projects, my social media handles, my experience on the website.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696764199/fakenews_icojrg.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Fake News Detection System</h4>
+                        <p>The Fake News Detection System help in analyzing fake news from real news, the dataset for training the model was downloaded from kaggle.com, RandomForestClassifier was used for training the model .</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1740062874/estore_pcidqu.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>E-Store</h4>
+                        
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                 <div class="portfolio-box">
+                    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696987524/fileconvert_kyd2kz.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>File Converter</h4>
+                        
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696764199/webscrap_g4qw6c.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Scraper</h4>
+                        <p>In this project I try detect the iris flower type by using machine learning predication model.And deployed in streamlit python</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1740062874/plant_chobsx.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Plant Mobile Application </h4>
+                        <p>In this project am making an Plant E-Store Mobile Application</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
 
-        <div class="mr-auto place-self-center lg:col-span-7 xl:ml-16">
-            <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none sm:text-4xl xl:text-4xl dark:text-white">I'm Abdulazeez Musah a Full Stack Python Developer</h5>
-            <div class="divider"></div>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-                I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-                final year project writeup, machine learning model developer, and web developer,
-                with a passion for crafting visually appealing and user-friendly digital experiences.
-                With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-            </p>
-        <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-        <ul class='flex flex-row gap-4 md:space-x-2'>
-          <a href=''><div class='relative group'>
-              <div class='bg-gradient-to-r from-cyan-300 to-blue-600 px-6 py-2 text-white rounded-md -inset-0.5 absolute blur-sm opacity-75 group-hover:-inset-1 transition group-hover:duration-400 group-hover:opacity-90 duration-1000'></div>
-              <button class='relative bg-gray-800 px-7 py-2 text-white rounded-md group-hover:text-gray-50 transition duration-200'><i class="bi bi-download font-extrabold"></i> Download CV</button>
-          </div></a>
-          <a href='#'><div class='relative group'>
-              <div class='bg-gradient-to-r from-cyan-300 to-blue-600 px-6 py-2 text-white rounded-md -inset-0.5 absolute blur-sm opacity-75 group-hover:-inset-1 transition group-hover:duration-400 group-hover:opacity-90 duration-1000'></div>
-              <button class='relative bg-gray-800 px-7 py-2 text-white rounded-md group-hover:text-gray-50 transition duration-200'><i class="bi bi-person"></i> About me</button>
-          </div></a>
+        </section>
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
 
-        </ul>
-        </div>
-        </div>
-    </div>
-</section>
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number"placeholder="Mobile Number">
+                    <input type="text"name="Email Subject" placeholder="Email Subject">
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message"class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
 
-</header>
-<main>
-<div class="divider text-4xl" >Website Project</div>
-<section>
-<div class="max-w-screen-xl mx-auto">
-<div class="text-center">
-<p class="mt-8 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-Crafted with skill and care to help our clients grow their business!
-</p>
-</div>
- <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-1 lg:grid-cols-3">
-    <div class="space-y-4">
-    <figure><img src="{% static 'img/2.png' %}" alt="Album"/></figure>
-    <span class="bg-white dark:bg-gray-800 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded  dark:text-gray-600">
-    Alphabet Inc.
-    </span>
-    <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-    Official website
-    </h3>
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-    Flowbite helps you connect with friends, family and communities of people who share your interests.
-    </p>
-    <a href="#" title=""
-    class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-    role="button">
-    View case study
-    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-    fill="currentColor">
-    <path fill-rule="evenodd"
-    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-    clip-rule="evenodd"></path>
-    </svg>
-    </a>
-    </div>
-    <div class="space-y-4">
-    <figure><img src="{% static 'img/2.png' %}" alt="Album"/></figure>
-    <span class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-    Alphabet Inc.
-    </span>
-    <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-    Official website
-    </h3>
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-    Flowbite helps you connect with friends, family and communities of people who share your interests.
-    </p>
-    <a href="#" title=""
-    class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-    role="button">
-    View case study
-    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-    fill="currentColor">
-    <path fill-rule="evenodd"
-    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-    clip-rule="evenodd"></path>
-    </svg>
-    </a>
-    </div>
-    <div class="space-y-4">
-    <figure><img src="{% static 'img/2.png' %}" alt="Album"/></figure>
-    <span class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-    Alphabet Inc.
-    </span>
-    <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-    Official website
-    </h3>
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-    Flowbite helps you connect with friends, family and communities of people who share your interests.
-    </p>
-    <a href="#" title=""
-    class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-    role="button">
-    View case study
-    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-    fill="currentColor">
-    <path fill-rule="evenodd"
-    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-    clip-rule="evenodd"></path>
-    </svg>
-    </a>
-    </div>
-    <div class="space-y-4">
-    <figure><img src="{% static 'img/2.png' %}" alt="Album"/></figure>
-    <span class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-    Alphabet Inc.
-    </span>
-    <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-    Official website
-    </h3>
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-    Flowbite helps you connect with friends, family and communities of people who share your interests.
-    </p>
-    <a href="#" title=""
-    class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-    role="button">
-    View case study
-    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-    fill="currentColor">
-    <path fill-rule="evenodd"
-    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-    clip-rule="evenodd"></path>
-    </svg>
-    </a>
-    </div>
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by Abdulazeez | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
 
-    <div class="space-y-4">
-    <figure><img src="{% static 'img/2.png' %}" alt="Album"/></figure>
-    <span
-    class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-    Microsoft Corp.
-    </span>
-    <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-    Management system
-    </h3>
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-    Flowbite helps you connect with friends, family and communities of people who share your interests.
-    </p>
-    <a href="#" title=""
-    class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-    role="button">
-    View case study
-    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-    fill="currentColor">
-    <path fill-rule="evenodd"
-    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-    clip-rule="evenodd"></path>
-    </svg>
-    </a>
-    </div>
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-    <div class="space-y-4">
-    <figure><img src="{% static 'img/2.png' %}" alt="Album"/></figure>
-    <span
-    class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-    Adobe Inc.
-    </span>
-    <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-    Logo design
-    </h3>
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-    Flowbite helps you connect with friends, family and communities of people who share your interests.
-    </p>
-    <a href="#" title=""
-    class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-    role="button">
-    View case study
-    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-    fill="currentColor">
-    <path fill-rule="evenodd"
-    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-    clip-rule="evenodd"></path>
-    </svg>
-    </a>
-    </div>
-    </div>
- </div>
-</section>
-<br>
-<br>
-<br>
-
-<div class="divider text-4xl">Machine Learning</div>
-
-<section class="mt-4">
-    <div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="mr-auto place-self-center lg:col-span-7">
-        <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">Fake New Detection Model Training and Detection</h5>
-        <div class="divider"></div>
-        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-            The Fake News Detection System help in analyzing fake news from real news, the dataset for training 
-            the model was downloaded from kaggle.com, RandomForestClassifier was used for training the model
-        </p>
-        <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-        <ul class='flex flex-row gap-4 md:space-x-2'>
-        </ul>
-        </div>
-        </div>
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696764199/fakenews_icojrg.png" alt="mockup">
-        </div>
-    </div>
-</section>
-<section class="mt-2">
-    <div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696764199/creditcard_egnwxv.png" alt="mockup">
-        </div>
-        <div class="mr-auto place-self-center lg:col-span-7 ml-10">
-        <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">Credit Card Fraud Detection</h5>
-        <div class="divider"></div>
-        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-            I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-            final year project writeup, machine learning model developer, and web developer,
-            with a passion for crafting visually appealing and user-friendly digital experiences.
-            With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-        </p>
-    </div>
-    </div>
-</section>
-<section class="mt-4">
-    <div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="mr-auto place-self-center lg:col-span-7">
-        <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">Spaceship Titanic</h5>
-        <div class="divider"></div>
-        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-            I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-            final year project writeup, machine learning model developer, and web developer,
-            with a passion for crafting visually appealing and user-friendly digital experiences.
-            With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-        </p>
-        <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-        <ul class='flex flex-row gap-4 md:space-x-2'>
-        </ul>
-        </div>
-        </div>
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696987496/titanic_es7paf.png" alt="mockup">
-        </div>
-    </div>
-</section>
-<section class="mt-2">
-    <div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696764199/webscrap_g4qw6c.png" alt="mockup">
-        </div>
-        <div class="mr-auto place-self-center lg:col-span-7 ml-10">
-        <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">WebScraper</h5>
-        <div class="divider"></div>
-        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-            I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-            final year project writeup, machine learning model developer, and web developer,
-            with a passion for crafting visually appealing and user-friendly digital experiences.
-            With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-        </p>
-    </div>
-    </div>
-</section>
-
-<div class="divider text-4xl" id="li">Desktop Applications</div>
-<section class="mt-4">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="mr-auto place-self-center lg:col-span-7">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">Data Entry</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-               Data Entry Software Allow You to Enter Data to A csv Format.
-    </p>
-    <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-    <ul class='flex flex-row gap-4 md:space-x-2'>
-    </ul>
-    </div>
-    </div>
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696987522/dataentry_av41ot.png" alt="mockup">
-    </div>
-</div>
-</section>
-<section class="mt-2">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696987523/Scrap_mn94ek.png" alt="mockup">
-    </div>
-    <div class="mr-auto place-self-center lg:col-span-7 ml-10">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">Webscrap</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-               Web Scrap Desktop application is used to scrap Website online.
-    </p>
-</div>
-</div>
-</section>
-<section class="mt-4">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="mr-auto place-self-center lg:col-span-7">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">File Converter From Csv to Excel Format</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-        File Converter is a software that allow you to view file and convert file from csv to excel format.
-    </p>
-    <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-    <ul class='flex flex-row gap-4 md:space-x-2'>
-    </ul>
-    </div>
-    </div>
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696987524/fileconvert_kyd2kz.png" alt="mockup">
-    </div>
-</div>
-</section>
-<section class="mt-2">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://res.cloudinary.com/dnmgvty4i/image/upload/v1696987526/imageviewer_ap0tov.png" alt="mockup">
-    </div>
-    <div class="mr-auto place-self-center lg:col-span-7 ml-10">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">Image Viewer</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-        Image Viewer allow user to load and view image with different features.
-    </p>
-</div>
-</div>
-</section>
-<div class="divider text-4xl">Final Year Project Writeup</div>
-<section class="mt-4">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="mr-auto place-self-center lg:col-span-7">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">I'm Abdulazeez Musah a Full Stack Python Developer</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-        I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-        final year project writeup, machine learning model developer, and web developer,
-        with a passion for crafting visually appealing and user-friendly digital experiences.
-        With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-    </p>
-    <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-    <ul class='flex flex-row gap-4 md:space-x-2'>
-    </ul>
-    </div>
-    </div>
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
-    </div>
-</div>
-</section>
-<section class="mt-2">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
-    </div>
-    <div class="mr-auto place-self-center lg:col-span-7 ml-10">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">I'm Abdulazeez Musah a Full Stack Python Developer</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-        I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-        final year project writeup, machine learning model developer, and web developer,
-        with a passion for crafting visually appealing and user-friendly digital experiences.
-        With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-    </p>
-</div>
-</div>
-</section>
-<section class="mt-4">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="mr-auto place-self-center lg:col-span-7">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">I'm Abdulazeez Musah a Full Stack Python Developer</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-        I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-        final year project writeup, machine learning model developer, and web developer,
-        with a passion for crafting visually appealing and user-friendly digital experiences.
-        With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-    </p>
-    <div class='hero-btn my-3 md:mt-2 font-bold text-sm md:text-[16px] md:leading-6'>
-    <ul class='flex flex-row gap-4 md:space-x-2'>
-    </ul>
-    </div>
-    </div>
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
-    </div>
-</div>
-</section>
-<section class="mt-2">
-<div class="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div class="lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
-    </div>
-    <div class="mr-auto place-self-center lg:col-span-7 ml-10">
-    <h5 class="max-w-2xl  font-extrabold tracking-tight leading-none  xl:text-4xl dark:text-white">I'm Abdulazeez Musah a Full Stack Python Developer</h5>
-    <div class="divider"></div>
-    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
-        I am a Python programmer, Data entry, Data Analysis, Sql database designer,
-        final year project writeup, machine learning model developer, and web developer,
-        with a passion for crafting visually appealing and user-friendly digital experiences.
-        With my unique combination of skills, I strive to create digital products that are both beautiful and easy to use.
-    </p>
-</div>
-</div>
-</section>
-</main>
-<footer class="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-900 antialiased">
-  <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-      &copy; 2023 <a href="/" class="hover:underline">N-Tech</a>. All rights reserved.
-  </p>
-  <div class="flex justify-center items-center space-x-1">
-    <a href="#" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
-        </svg>
-        <span class="sr-only">Facebook</span>
-    </a>
-    <div id="tooltip-facebook" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-        Like us on Facebook
-        <div class="tooltip-arrow" data-popper-arrow></div>
-    </div>
-    <a href="#" data-tooltip-target="tooltip-twitter" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-            <path fill="currentColor" d="M12.186 8.672 18.743.947h-2.927l-5.005 5.9-4.44-5.9H0l7.434 9.876-6.986 8.23h2.927l5.434-6.4 4.82 6.4H20L12.186 8.672Zm-2.267 2.671L8.544 9.515 3.2 2.42h2.2l4.312 5.719 1.375 1.828 5.731 7.613h-2.2l-4.699-6.237Z"/>
-        </svg>
-        <span class="sr-only">Twitter</span>
-    </a>
-    <div id="tooltip-twitter" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-        Follow us on Twitter
-        <div class="tooltip-arrow" data-popper-arrow></div>
-    </div>
-    <a href="#" data-tooltip-target="tooltip-github" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
-        </svg>
-        <span class="sr-only">Github</span>
-    </a>
-    <div id="tooltip-github" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-        Star us on GitHub
-        <div class="tooltip-arrow" data-popper-arrow></div>
-    </div>
-    <a href="#" data-tooltip-target="tooltip-dribbble" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
-        </svg>
-        <span class="sr-only">Dribbble</span>
-    </a>
-    <div id="tooltip-dribbble" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-        Follow us on Dribbble
-        <div class="tooltip-arrow" data-popper-arrow></div>
-    </div>
-</div>
-</footer>
-
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        
+    </body>
 </html>
